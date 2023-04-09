@@ -1,0 +1,1829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S2</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Конференция</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Чек-лист</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Лендинг</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C105</id>
+				<title>Лендинг конференции доступен по ссылке https://test-stand.gb.ru/seminar_stands/umeet/index.html</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Хедер</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C106</id>
+				<title>Лендинг содержит хедер</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C107</id>
+				<title>Хедер содержит фоновое изображение</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C108</id>
+				<title>Хедер содержит логотип компании</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C109</id>
+				<title>Хедер содержит даты проведения</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C110</id>
+				<title>Хедер содержит заголовок конференции</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C111</id>
+				<title>Хедер содержит кнопку &quot;Купить билеты&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C112</id>
+				<title>Открывается страница покупки билетов при клике по кнопке &quot;Купить билеты&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>блок с описанием конференции</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C113</id>
+				<title>Лендинг содержит блок с описанием конференции</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C114</id>
+				<title>Блок с описанием конференции расположен под хедером</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C115</id>
+				<title>Блок с описанием конференции содержит каунтер обратного отсчета</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C116</id>
+				<title>Каунтер обратного отсчета показывает корректное время до начала конференции</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C117</id>
+				<title>Блок с описанием конференции содержит даты проведения конференции</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C118</id>
+				<title>Даты проведения конференции расположены под каунтером обратного отсчета</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C119</id>
+				<title>Блок с описанием конференции содержит кнопку &quot;Купить билеты&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C120</id>
+				<title>Кнопка &quot;Купить билеты&quot; расположена под каунтером обратного отсчета</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C121</id>
+				<title>Открывается страница покупки билетов при клике по кнопке &quot;Купить билеты&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>блок &quot;Почему стоит посетить&quot;</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C122</id>
+				<title>Лендинг содержит блок &quot;Почему стоит посетить&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C123</id>
+				<title>Блок &quot;Почему стоит посетить&quot; содержит заголовок &quot;Почему стоит посетить&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C124</id>
+				<title>Блок &quot;Почему стоит посетить&quot; содержит поинты</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C125</id>
+				<title>Каждый поинт содержит изображение, название и описание</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C126</id>
+				<title>Под каждым поинтом расположена кнопка &quot;подробнее&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C127</id>
+				<title>Под блоком &quot;Почему стоит посетить&quot; располагается кнопка &quot;Узнать больше&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C128</id>
+				<title>Кнопка &quot;Узнать больше&quot; ведет на блок лендинга с описанием конференции</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C129</id>
+				<title>Справа от кнопки &quot;Узнать больше&quot; расположена кнопка &quot;Купить билеты&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C130</id>
+				<title>Открывается страница покупки билетов при клике по кнопке &quot;Купить билеты&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>блок &quot;Жюри&quot;</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C189</id>
+				<title>Лендинг содержит блок &quot;Жюри&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds> </preconds>
+										<steps> </steps>
+										<expected> </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C190</id>
+				<title>Блок &quot;Жури&quot; содержит галерею карточек членов жюри</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds> </preconds>
+										<steps> </steps>
+										<expected> </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C191</id>
+				<title>Каждая карточка в галерее имеет синюю обводку</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds> </preconds>
+										<steps> </steps>
+										<expected> </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C192</id>
+				<title>Каждая карточка в галерее имеет изображение члена жюри</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds> </preconds>
+										<steps> </steps>
+										<expected> </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C193</id>
+				<title>В нижней части каждой карточки находится прямоугольный блок с именем и фамилией члена жюри</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds> </preconds>
+										<steps> </steps>
+										<expected>
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C194</id>
+				<title>Каждая карточка содержит должность члена жюри</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds> </preconds>
+										<steps> </steps>
+										<expected>
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C195</id>
+				<title>Карточка увеличивается в размере при наведении на нее курсора мыши</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds> </preconds>
+										<steps> </steps>
+										<expected> </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C196</id>
+				<title>Фон карточки затемняется при наведении на нее курсора мыши</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds> </preconds>
+										<steps> </steps>
+										<expected> </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C197</id>
+				<title>В галерее карточек 4 столбца</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds> </preconds>
+										<steps> </steps>
+										<expected> </expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>блок &quot;Расписание&quot;</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C140</id>
+				<title>Лендинг содержит блок &quot;Расписание&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C141</id>
+				<title>Блок &quot;Расписание&quot; содержит расписание конференции</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C142</id>
+				<title>Конференция проводится 4 дня</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C143</id>
+				<title>Дни представлены в виде табов</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C144</id>
+				<title>В каждом табе дня находятся доклады</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C145</id>
+				<title>Доклады представлены в виде карточек</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C146</id>
+				<title>На каждой из карточек доклада находится фотография спикера</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C147</id>
+				<title>На каждой из карточек доклада находится название компании, в которой работает спикер</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C148</id>
+				<title>На каждой из карточек доклада находится блок с датой и описанием доклада справа от фотографии спикера</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>блок &quot;Стоимость участия&quot;</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C149</id>
+				<title>Лендинг содержит блок &quot;Стоимость участия&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C150</id>
+				<title>Блок &quot;Стоимость участия&quot; содержит три цены: Normal, Advanced, Ultimate в виде карточек</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C151</id>
+				<title>Карточка Ultimate расположена по центру между двумя другими</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C152</id>
+				<title>Каждая из карточек содержит описание</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C153</id>
+				<title>Каждая из карточек содержит цену</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C154</id>
+				<title>Каждая из карточек содержит кнопку &quot;Купить билеты&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C155</id>
+				<title>Открывается страница покупки билетов при клике по кнопке &quot;Купить билеты&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>блок с каруселью партнеров</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C156</id>
+				<title>Лендинг содержит блок с каруселью партнеров</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C157</id>
+				<title>Блок с каруселью партнеров расположен ниже блока &quot;Стоимость участия&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C158</id>
+				<title>Карусель содержит карточки с логотипами партнеров</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>блок &quot;Галерея&quot;</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C159</id>
+				<title>Лендинг содержит блок &quot;Галерея&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C160</id>
+				<title>Блок &quot;Галерея&quot; содержит фотогалерею с предыдущих конференций</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>карта места проведения</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C161</id>
+				<title>Лендинг содержит карту места проведения</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C162</id>
+				<title>На карте есть отметка места проведения конференции</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Тест-кейсы</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Лендинг</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C163</id>
+				<title>Лендинг конференции доступен по ссылке https://test-stand.gb.ru/seminar_stands/umeet/index.html</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Открыть ссылку https://test-stand.gb.ru/seminar_stands/umeet/index.html</steps>
+										<expected>Открыта страница лендинга конференции</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Хедер</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C164</id>
+				<title>Лендинг содержит хедер</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)</preconds>
+										<steps>1. Проскроллить страницу до хедера
+2. Проверить, что отображаемый блок на сайте является хедером
+</steps>
+										<expected>Отображается хедер</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C165</id>
+				<title>Хедер содержит фоновое изображение</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в хедере сайта</preconds>
+										<steps>1. Проверить наличие фонового изображания в хедере</steps>
+										<expected>Отображается фоновое изображение</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C166</id>
+				<title>Хедер содержит логотип компании</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в хедере сайта</preconds>
+										<steps>1. Проверить наличие логотипа компании в хедере</steps>
+										<expected>Отображается логотип компании</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C167</id>
+				<title>Хедер содержит даты проведения</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в хедере сайта</preconds>
+										<steps>1. Проверить наличие дат проведения в хедере</steps>
+										<expected>Отображаются даты проведения конференции</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C168</id>
+				<title>Хедер содержит заголовок конференции</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в хедере сайта</preconds>
+										<steps>1. Проверить наличие заголовка конференции в хедере</steps>
+										<expected>Отображается заголовок конференции</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C169</id>
+				<title>Хедер содержит кнопку &quot;Купить билеты&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в хедере сайта</preconds>
+										<steps>1. Проверить наличие кнопки &quot;Купить билеты&quot; в хедере</steps>
+										<expected>Отображается кнопка &quot;Купить билеты&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C170</id>
+				<title>Открывается страница покупки билетов при клике по кнопке &quot;Купить билеты&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в хедере сайта</preconds>
+										<steps>1. Кликнуть по кнопке &quot;Купить билеты&quot; в хедере</steps>
+										<expected>Открыта страница покупки билетов</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>блок с описанием конференции</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C171</id>
+				<title>Лендинг содержит блок с описанием конференции</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)</preconds>
+										<steps>1. Проскроллить страницу до блока с описанием конференции
+2. Проверить, что отображаемый блок на сайте является отдельным блоком
+</steps>
+										<expected>Отображается блок с описанием конференции, является отдельным блоком</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C172</id>
+				<title>Блок с описанием конференции расположен под хедером</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке с описанием конференции
+</preconds>
+										<steps>1. Проверить расположение блока с описанием конференции относительно хедера</steps>
+										<expected>Блок с описанием конференции расположен под хедером</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C173</id>
+				<title>Блок с описанием конференции содержит каунтер обратного отсчета</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке с описанием конференции
+</preconds>
+										<steps>1. Проверить наличие каунтера обратного отсчета в блоке с описанием конференции</steps>
+										<expected>Отображается каунтер обратного отсчета</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C174</id>
+				<title>Каунтер обратного отсчета показывает корректное время до начала конференции</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке с описанием конференции
+</preconds>
+										<steps>1. Проверить корректность отображения времени на каунтере обратного отсчета</steps>
+										<expected>Корректное отображение времени</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C175</id>
+				<title>Блок с описанием конференции содержит даты проведения конференции</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке с описанием конференции</preconds>
+										<steps>1. Проверить наличие дат проведения конференции в блоке с описанием конференции</steps>
+										<expected>Отображаются даты проведения конференции</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C176</id>
+				<title>Даты проведения конференции расположены под каунтером обратного отсчета</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке с описанием конференции</preconds>
+										<steps>1. Проверить расположение дат проведения конференции относительно каунтера обратного отсчета в блоке с описанием конференции</steps>
+										<expected>Даты проведения конференции расположены под каунтером обратного отсчета</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C177</id>
+				<title>Блок с описанием конференции содержит кнопку &quot;Купить билеты&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке с описанием конференции</preconds>
+										<steps>1. Проверить наличие кнопки &quot;Купить билеты&quot; в блоке с описанием конференции</steps>
+										<expected>Отображается кнопка &quot;Купить билеты&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C178</id>
+				<title>Кнопка &quot;Купить билеты&quot; расположена под каунтером обратного отсчета</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке с описанием конференции</preconds>
+										<steps>1. Проверить расположение кнопки &quot;Купить билеты&quot; относительно каунтера обратного отсчета в блоке с описанием конференции</steps>
+										<expected>Кнопка &quot;Купить билеты&quot; расположена под каунтером обратного отсчета
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C179</id>
+				<title>Открывается страница покупки билетов при клике по кнопке &quot;Купить билеты&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке с описанием конференции</preconds>
+										<steps>1. Кликнуть по кнопке &quot;Купить билеты&quot; в блоке с описанием конференции</steps>
+										<expected>Открыта страница покупки билетов</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>блок Почему стоит посетить</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C180</id>
+				<title>Лендинг содержит блок &quot;Почему стоит посетить&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)</preconds>
+										<steps>1. Проскроллить страницу до блока &quot;Почему стоит посетить&quot;
+2. Проверить, что отображаемый блок на сайте является отдельным блоком
+</steps>
+										<expected>Отображается блок &quot;Почему стоит посетить&quot;, является отдельным блоком</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C181</id>
+				<title>Блок &quot;Почему стоит посетить&quot; содержит заголовок &quot;Почему стоит посетить&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Почему стоит посетить&quot; </preconds>
+										<steps>1. Проверить наличие заголовка &quot;Почему стоит посетить&quot; в блоке &quot;Почему стоит посетить&quot;</steps>
+										<expected>Отображается заголовок &quot;Почему стоит посетить&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C182</id>
+				<title>Блок &quot;Почему стоит посетить&quot; содержит поинты</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Почему стоит посетить&quot;</preconds>
+										<steps>1. Проверить наличие поинтов в блоке &quot;Почему стоит посетить&quot;</steps>
+										<expected>Отображаются поинты</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C183</id>
+				<title>Каждый поинт содержит изображение, название и описание</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Почему стоит посетить&quot;</preconds>
+										<steps>1. Проверить каждый поинт на наличие изображения
+2. Проверить каждый поинт на наличие названия
+3. Проверить каждый поинт на наличие описания</steps>
+										<expected>Каждый поинт имеет изображение, название и описание</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C184</id>
+				<title>Под каждым поинтом расположена кнопка &quot;подробнее&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Почему стоит посетить&quot;</preconds>
+										<steps>1. Проверить наличие кнопки &quot;подробнее&quot;, расположенной под каждым поинтом</steps>
+										<expected>Под каждым поинтом расположена кнопка &quot;подробнее&quot;
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C185</id>
+				<title>Под блоком &quot;Почему стоит посетить&quot; располагается кнопка &quot;Узнать больше&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Почему стоит посетить&quot;</preconds>
+										<steps>1. Проскроллить страницу ниже блока &quot;Почему стоит посетить&quot;
+2. Проверить наличие кнопки &quot;Узнать больше&quot;
+3. Проверить расположение кнопки &quot;Узнать больше&quot;</steps>
+										<expected>Кнопка &quot;Узнать больше&quot; расположена под блоком &quot;Почему стоит посетить&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C186</id>
+				<title>Кнопка &quot;Узнать больше&quot; ведет на блок лендинга с описанием конференции</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится под блоком &quot;Почему стоит посетить&quot;</preconds>
+										<steps>1. Кликнуть по кнопке &quot;Узнать больше&quot;</steps>
+										<expected>Открыт блок лендинга с описанием конференции</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C187</id>
+				<title>Справа от кнопки &quot;Узнать больше&quot; расположена кнопка &quot;Купить билеты&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится под блоком &quot;Почему стоит посетить&quot;</preconds>
+										<steps>1. Проверить наличие кнопки &quot;Купить билеты&quot;
+2. Проверить расположение кнопки &quot;Купить билеты&quot; относительно кнопки &quot;Узнать больше&quot;</steps>
+										<expected>Кнопка &quot;Купить билеты&quot; расположена справа от кнопки &quot;Узнать больше&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C188</id>
+				<title>Открывается страница покупки билетов при клике по кнопке &quot;Купить билеты&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится под блоком &quot;Почему стоит посетить&quot;</preconds>
+										<steps>1. Кликнуть по кнопке &quot;Купить билеты&quot; под блоком &quot;Почему стоит посетить&quot;</steps>
+										<expected>Открыта страница покупки билетов</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>блок Жюри</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C131</id>
+				<title>Лендинг содержит блок &quot;Жюри&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)</preconds>
+										<steps>1. Проскроллить страницу до блока &quot;Жюри&quot;
+2. Проверить, что отображаемый блок на сайте является отдельным блоком</steps>
+										<expected>Отображается блок &quot;Жюри&quot;, является отдельным блоком</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C132</id>
+				<title>Блок &quot;Жури&quot; содержит галерею карточек членов жюри</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Жюри&quot;</preconds>
+										<steps>1. Проверить наличие галереи карточек членов жюри</steps>
+										<expected>Отображается галерея карточек членов жюри</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C133</id>
+				<title>Каждая карточка в галерее имеет синюю обводку</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Жюри&quot;</preconds>
+										<steps>1. Проверить наличие обводки вокруг карточек галереи
+2. Проверить цвет обводки</steps>
+										<expected>Обводка синего цвета</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C134</id>
+				<title>Каждая карточка в галерее имеет изображение члена жюри</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Жюри&quot;</preconds>
+										<steps>1. Проверить наличие изображение члена жюри на карточках галереи</steps>
+										<expected>На каждой карточке отображается изображение члена жюри</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C135</id>
+				<title>В нижней части каждой карточки находится прямоугольный блок с именем и фамилией члена жюри</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Жюри&quot;</preconds>
+										<steps>1. Проверить наличие прямоугольного блока на каждой карточке члена жюри
+2. Проверить расположение прямоугольного блока
+3. Проверить наличие имени и фамилии члена жюри в прямоугольном блоке</steps>
+										<expected>В прямоугольном блоке отображается имя и фамилия члена жюри в нижней части карточек галереи
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C136</id>
+				<title>Каждая карточка содержит должность члена жюри</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Жюри&quot;</preconds>
+										<steps>1. Проверить наличие должности члена жюри на каждой карточке</steps>
+										<expected>Каждая карточка содержит должность члена жюри
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C137</id>
+				<title>Карточка увеличивается в размере при наведении на нее курсора мыши</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Жюри&quot;</preconds>
+										<steps>1. Навести курсор мыши на карточку члена жури</steps>
+										<expected>Карточка увеличивается в размере</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C138</id>
+				<title>Фон карточки затемняется при наведении на нее курсора мыши</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Жюри&quot;</preconds>
+										<steps>1. Навести курсор мыши на карточку члена жури</steps>
+										<expected>Фон карточки затемняется</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C139</id>
+				<title>В галерее карточек 4 столбца</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Жюри&quot;</preconds>
+										<steps>1. Посчитать количество столбцов карточек в галерее</steps>
+										<expected>Карточки в галерее формируют 4 столбца</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>блок Расписание</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C198</id>
+				<title>Лендинг содержит блок &quot;Расписание&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)</preconds>
+										<steps>1. Проскроллить страницу до блока &quot;Расписание&quot;
+2. Проверить, что отображаемый блок на сайте является отдельным блоком</steps>
+										<expected>Отображается блок &quot;Расписание&quot;, является отдельным блоком</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C199</id>
+				<title>Блок &quot;Расписание&quot; содержит расписание конференции</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Расписание&quot;</preconds>
+										<steps>1. Проверить наличие расписания конференции</steps>
+										<expected>Отображается расписание конференции</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C200</id>
+				<title>Конференция проводится 4 дня</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Расписание&quot;</preconds>
+										<steps>1. Проверить количество дней проведения конференции</steps>
+										<expected>Количество дней равно четырем</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C201</id>
+				<title>Дни представлены в виде табов</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Расписание&quot;</preconds>
+										<steps>1. Проверить отображение дней проведения конференции</steps>
+										<expected>Дни представлены в виде табов</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C202</id>
+				<title>В каждом табе дня находятся доклады</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Расписание&quot;</preconds>
+										<steps>1. Кликнуть на таб День 1
+2. Проверить наличие докладов участников
+3. Повторить шаги 1 и 2 для остальных табов</steps>
+										<expected>В каждом табе дня находятся доклады
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C203</id>
+				<title>Доклады представлены в виде карточек</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Расписание&quot;</preconds>
+										<steps>1. Кликнуть на таб День 1
+2. Проверить наличие докладов участников
+3. Проверить форму представления докладов
+4. Повторить шаги 1, 2 и 3 для остальных табов</steps>
+										<expected>Представление докладов на всех табах в виде карточек</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C204</id>
+				<title>На каждой из карточек доклада находится фотография спикера</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Расписание&quot;</preconds>
+										<steps>1. Кликнуть на таб День 1
+2. Проверить наличие фотографии спикера на карточке доклада
+3. Повторить шаги 1 и 2 для остальных табов</steps>
+										<expected>&quot;На каждой из карточек доклада находится фотография спикера&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C205</id>
+				<title>На каждой из карточек доклада находится название компании, в которой работает спикер</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Расписание&quot;</preconds>
+										<steps>1. Кликнуть на таб День 1
+2. Проверить наличие компании спикера на карточке доклада
+3. Повторить шаги 1 и 2 для остальных табов</steps>
+										<expected>&quot;На каждой из карточек доклада находится компания спикера&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C206</id>
+				<title>На каждой из карточек доклада находится блок с датой и описанием доклада справа от фотографии спикера</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Расписание&quot;</preconds>
+										<steps>1. Кликнуть на таб День 1
+2. Проверить наличие блока с датой и описанием доклада на карточке доклада
+3. Проверить расположение блока с датой и описанием доклада
+4. Повторить шаги 1, 2 и 3 для остальных табов</steps>
+										<expected>На каждой из карточек доклада находится блок с датой и описанием доклада справа от фотографии спикера</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>блок Стоимость участия</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C207</id>
+				<title>Лендинг содержит блок &quot;Стоимость участия&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)</preconds>
+										<steps>1. Проскроллить страницу до блока &quot;Стоимость участия&quot;
+2. Проверить, что отображаемый блок на сайте является отдельным блоком</steps>
+										<expected>Отображается блок &quot;Стоимость участия&quot;, является отдельным блоком</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C208</id>
+				<title>Блок &quot;Стоимость участия&quot; содержит три цены: Normal, Advanced, Ultimate в виде карточек</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Стоимость участия&quot;</preconds>
+										<steps>1. Проверить наличие карточек Normal, Advanced, Ultimate</steps>
+										<expected>Отображаются 3 карточки: Normal, Advanced, Ultimate в виде карточек</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C209</id>
+				<title>Карточка Ultimate расположена по центру между двумя другими</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Стоимость участия&quot;</preconds>
+										<steps>1. Проверить расположение карточки Ultimate относительно двух других</steps>
+										<expected>Карточка Ultimate расположена по центру между двумя другими
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C210</id>
+				<title>Каждая из карточек содержит описание</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Стоимость участия&quot;</preconds>
+										<steps>1. Проверить наличие описания на каждой карточке</steps>
+										<expected>Каждая из карточек содержит описание
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C211</id>
+				<title>Каждая из карточек содержит цену</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Стоимость участия&quot;</preconds>
+										<steps>1. Проверить наличие цены на каждой карточке</steps>
+										<expected>Каждая из карточек содержит цену
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C212</id>
+				<title>Каждая из карточек содержит кнопку &quot;Купить билеты&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Стоимость участия&quot;</preconds>
+										<steps>1. Проверить наличие кнопки &quot;Купить билеты&quot; на каждой карточке</steps>
+										<expected>Каждая из карточек содержит кнопку &quot;Купить билеты&quot;
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C213</id>
+				<title>Открывается страница покупки билетов при клике по кнопке &quot;Купить билеты&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке &quot;Стоимость участия&quot;</preconds>
+										<steps>1. Кликнуть по кнопке &quot;Купить билеты&quot; в блоке &quot;Стоимость участия&quot;</steps>
+										<expected>Открыта страница покупки билетов</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>блок с каруселью партнеров</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C214</id>
+				<title>Лендинг содержит блок с каруселью партнеров</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)</preconds>
+										<steps>1. Проскроллить страницу до блока с каруселью партнеров
+2. Проверить, что отображаемый блок на сайте является отдельным блоком</steps>
+										<expected>Отображается блок с каруселью партнеров, является отдельным блоком</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C215</id>
+				<title>Блок с каруселью партнеров расположен ниже блока &quot;Стоимость участия&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке с каруселью партнеров</preconds>
+										<steps>1. Проверить расположение блока с каруселью партнеров относительно блока &quot;Стоимость участия&quot;</steps>
+										<expected>Блок с каруселью партнеров расположен ниже блока &quot;Стоимость участия&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C216</id>
+				<title>Карусель содержит карточки с логотипами партнеров</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке с каруселью партнеров</preconds>
+										<steps>1. Проверить наличие карусели с логотипами партнеров
+2. Проверить отображение логотипов</steps>
+										<expected>Карусель отображается со всеми логотипами партнеров</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>блок Галерея</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C217</id>
+				<title>Лендинг содержит блок &quot;Галерея&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)</preconds>
+										<steps>1. Проскроллить страницу до блока &quot;Галерея&quot;
+2. Проверить, что отображаемый блок на сайте является отдельным блоком</steps>
+										<expected>Отображается блок &quot;Галерея&quot;, является отдельным блоком</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C218</id>
+				<title>Блок &quot;Галерея&quot; содержит фотогалерею с предыдущих конференций</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>карта места проведения</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C219</id>
+				<title>Лендинг содержит карту места проведения</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)</preconds>
+										<steps>1. Проскроллить страницу до карты места проведения
+2. Проверить, что отображаемый блок на сайте является отдельным блоком</steps>
+										<expected>Отображается карта места проведения, является отдельным блоком</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C220</id>
+				<title>На карте есть отметка места проведения конференции</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>1. Открыта страница https://test-stand.gb.ru/seminar_stands/umeet/index.html в режиме инкогнито (все плагины браузера выключены)
+2. Пользователь находится в блоке карта места проведения</preconds>
+										<steps>1. Проверить наличие отметки места проведения конференции</steps>
+										<expected>Отображается отметка места проведения конференции</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+</suite>
